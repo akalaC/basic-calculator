@@ -22,7 +22,7 @@ elif chosen_float == 2:
 elif chosen_float == 3:
     print(num1_float * num2_float)
 elif chosen_float == 4:
-    print(num1_float / num2_float)
+    print(num1_float // num2_float)
 else:
     print("An error occured, please try again")
 
