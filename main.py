@@ -11,9 +11,9 @@ print("4 = divide")
 
 chosen = input("chose one of the above: ")
 
-num1_float = float(num1)
-num2_float = float(num2)
-chosen_float = float(chosen)
+num1_float = int(num1)
+num2_float = int(num2)
+chosen_float = int(chosen)
 
 if chosen_float == 1:
     print(num1_float + num2_float)
